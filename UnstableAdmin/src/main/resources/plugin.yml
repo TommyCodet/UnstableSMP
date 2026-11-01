@@ -1,0 +1,42 @@
+name: UnstableAdmin
+version: '${project.version}'
+main: com.txmmyyt.unstableadmin.UnstableAdmin
+api-version: '1.21'
+author: TxmmyYT_
+description: Admin tools for UnstableSMP.
+depend: [UnstableCore]
+
+commands:
+  fly:
+    description: Toggle fly
+    permission: unstable.admin.fly
+  vanish:
+    description: Toggle vanish
+    permission: unstable.admin.vanish
+  kick:
+    description: Kick a player
+    permission: unstable.admin.kick
+  ban:
+    description: Ban a player
+    permission: unstable.admin.ban
+  unban:
+    description: Unban a player
+    permission: unstable.admin.unban
+  gamemode:
+    description: Change gamemode
+    aliases: [gm]
+    permission: unstable.admin.gamemode
+
+permissions:
+  unstable.admin.fly:
+    default: op
+  unstable.admin.vanish:
+    default: op
+  unstable.admin.kick:
+    default: op
+  unstable.admin.ban:
+    default: op
+  unstable.admin.unban:
+    default: op
+  unstable.admin.gamemode:
+    default: op
