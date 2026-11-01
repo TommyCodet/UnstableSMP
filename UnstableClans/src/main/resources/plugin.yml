@@ -1,0 +1,21 @@
+name: UnstableClans
+version: '${project.version}'
+main: com.txmmyyt.unstableclans.UnstableClans
+api-version: '1.21'
+author: TxmmyYT_
+description: Clan system with homes, chat, invites for UnstableSMP.
+depend: [UnstableCore]
+
+commands:
+  clan:
+    description: Clan commands
+    usage: /clan <create|invite|accept|leave|kick|home|sethome|chat>
+    permission: unstable.clans.use
+
+permissions:
+  unstable.clans.admin:
+    description: Admin clan management
+    default: op
+  unstable.clans.use:
+    description: Use clan commands
+    default: true

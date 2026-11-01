@@ -1,0 +1,5 @@
+# UnstableClans config
+max-members: 20
+home-cooldown: 5
+chat-format: "&7[Clan] &f%player%: %message%"
+pvp-default: false
