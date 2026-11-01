@@ -1,0 +1,28 @@
+name: UnstableHomes
+version: '${project.version}'
+main: com.txmmyyt.unstablehomes.UnstableHomes
+api-version: '1.21'
+author: TxmmyYT_
+description: Home system with countdown teleport for UnstableSMP.
+depend: [UnstableCore]
+
+commands:
+  sethome:
+    description: Set a home
+    usage: /sethome [name]
+  home:
+    description: Teleport to home
+    usage: /home [name]
+  delhome:
+    description: Delete a home
+    usage: /delhome [name]
+  homes:
+    description: List homes
+
+permissions:
+  unstable.homes.use:
+    description: Use homes
+    default: true
+  unstable.homes.admin:
+    description: Admin homes
+    default: op

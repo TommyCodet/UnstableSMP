@@ -1,0 +1,17 @@
+name: UnstableRTP
+version: '${project.version}'
+main: com.txmmyyt.unstablertp.UnstableRTP
+api-version: '1.21'
+author: TxmmyYT_
+description: Random teleport with safe location search.
+depend: [UnstableCore]
+
+commands:
+  rtp:
+    description: Random teleport
+    permission: unstable.rtp.use
+
+permissions:
+  unstable.rtp.use:
+    description: Use /rtp
+    default: true
