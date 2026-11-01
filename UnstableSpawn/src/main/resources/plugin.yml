@@ -1,0 +1,22 @@
+name: UnstableSpawn
+version: '${project.version}'
+main: com.txmmyyt.unstablespawn.UnstableSpawn
+api-version: '1.21'
+author: TxmmyYT_
+description: Spawn system with setspawn and teleport.
+depend: [UnstableCore]
+
+commands:
+  spawn:
+    description: Teleport to spawn
+  setspawn:
+    description: Set the spawn location
+    permission: unstable.spawn.admin
+
+permissions:
+  unstable.spawn.use:
+    description: Use /spawn
+    default: true
+  unstable.spawn.admin:
+    description: Set spawn
+    default: op

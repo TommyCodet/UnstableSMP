@@ -1,0 +1,21 @@
+name: UnstableMessages
+version: '${project.version}'
+main: com.txmmyyt.unstablemessages.UnstableMessages
+api-version: '1.21'
+author: TxmmyYT_
+description: Advanced messaging, titles, actionbars and sounds for UnstableSMP.
+depend: [UnstableCore]
+
+commands:
+  umessages:
+    description: Reload messages
+    permission: unstable.messages.admin
+    usage: /umessages reload
+
+permissions:
+  unstable.messages.admin:
+    description: Admin access to UnstableMessages
+    default: op
+  unstable.messages.use:
+    description: Use messaging features
+    default: true

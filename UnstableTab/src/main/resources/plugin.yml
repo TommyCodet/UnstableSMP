@@ -1,0 +1,12 @@
+name: UnstableTab
+version: '${project.version}'
+main: com.txmmyyt.unstabletab.UnstableTab
+api-version: '1.21'
+author: TxmmyYT_
+description: Custom Tablist and Scoreboard for UnstableSMP.
+depend: [UnstableCore]
+
+permissions:
+  unstable.tab.use:
+    description: See custom tab
+    default: true

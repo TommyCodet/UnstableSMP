@@ -1,0 +1,11 @@
+tab:
+  header: "<gold><bold>UnstableSMP</bold>"
+  footer: "<yellow>Online: <white>%online% <gray>| <yellow>Ping: <white>%ping%"
+
+scoreboard:
+  enabled: true
+  title: "<gold>UnstableSMP"
+  lines:
+    - "<gray>Online: <white>%online%"
+    - "<gray>Clan: <white>%clan%"
+    - "<gray>Ping: <white>%ping%"

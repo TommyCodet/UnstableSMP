@@ -1,0 +1,22 @@
+# UnstableMessages Configuration
+
+messages:
+  prefix: "<gold>[<yellow>UnstableSMP<gold>] "
+  success: "<green>Operation successful!"
+  error: "<red>Something went wrong!"
+  no-permission: "<red>You don't have permission!"
+  welcome: "<green>Welcome to UnstableSMP, %player%!"
+  crate-open: "<yellow>You opened a <gold>%crate%</gold> crate!"
+  clan-created: "<green>Clan created successfully!"
+  home-set: "<green>Home set!"
+  rtp-teleport: "<aqua>Teleporting..."
+  spawn-teleport: "<green>Teleporting to spawn..."
+
+sounds:
+  success: ENTITY_PLAYER_LEVELUP
+  error: ENTITY_VILLAGER_NO
+  teleport: ENTITY_ENDERMAN_TELEPORT
+
+titles:
+  welcome-title: "<gold>UnstableSMP"
+  welcome-subtitle: "<yellow>Welcome!"
