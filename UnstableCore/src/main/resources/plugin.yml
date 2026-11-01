@@ -1,0 +1,14 @@
+name: UnstableCore
+version: '${project.version}'
+main: com.txmmyyt.unstablecore.UnstableCore
+api-version: '1.21'
+author: TxmmyYT_
+description: Core plugin for UnstableSMP providing shared API, database and configuration.
+softdepend: []
+load: STARTUP
+
+commands: {}
+permissions:
+  unstable.core.admin:
+    description: Admin access to UnstableCore
+    default: op
